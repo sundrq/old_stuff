@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <head>
+            <h1>Repeating everything</h1>
+            <h2>BTW, can be only 1-6 headings size</h2>
+            <h6>You see? I'm the smallest</h6>
+
+            <ul>
+               <li><a href="#first table">TO THE 1 TABLE!</a></li> 
+                <li><a href="#simple text 1">TO THE SIMPLE TEXT!</a></li>
+                <li><a href="#unordered list">TO THE UNORDERED LIST!</a></li>
+                <li><a href="#ordered list">TO THE ORDERED LIST! ^^</a></li>
+            </ul>
+        </head>
+        <div>
+            <table border="5" id="first table">
+                <thead>
+                    <tr scope="first">
+                        <th scope="col"></th>            <!---as a 1 but 0-->
+                        <th scope="col">1 col</th>
+                        <th scope="col">2 col</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr scope="second">
+                        <th scope="row">1 row</th>      <!---after 1 that is actually a 0-->
+                        <td>Hello!</td>
+                        <td>Bye-bye!</td>
+                    </tr>
+                    <tr scope="my example. third">
+                        <td>In the right is example..</td>
+                        <td colspan="2">...of colspan</td>
+                    </tr>
+                <tfoor>
+                    <tr  scope="my example of rowspan. forth">
+                        <th rowspan="2">What do u prefer?</th>
+                        <td>Yogurt</td>
+                        <td rowspan="2">BOTH</td>
+                    </tr>
+                    <tr scope="still the same example. fifth">
+                        <td>Milk</td>
+                    </tr>
+                </tfoor>
+                </tbody>
+            </table>
+            
+        </div>
+        <div id="simple text 1">
+            <p><strong>The Nile River</strong> <!---BOLD--> is the <em>longest</em> <!---ITALIC--> river <br> <!---LINE BREAKS--> in the world, measuring over 6,850 <br> kilometers long (approximately 4,260 miles).</p>
+        </div>
+
+        <div id="unordered list">
+            <h3>My favourite movies</h3>
+            <ul><!---MEANS НЕУПОРЯДКОВАНИЙ СПИСОК-->
+                <li>Lady Bug and Cat Noir</li>          <!--- MEANS list items-->
+                <li>Fineas and Ferb</li>
+                <li>My Little Pony</li>
+            </ul>
+        </div>
+        <div id="ordered list">
+            <h3>My favourite food from most fav</h3>
+            <ol><!---MEANS УПОРЯДКОВАНИЙ СПИСОК, which is counting with 1,2,3...  -->
+                <li>Sushi</li>          <!--- MEANS list items-->
+                <li>Avocado</li>
+                <li>Yogurt</li>
+            </ol>
+            <div id="IMAGE">
+                <img src="https://www.takeaway.com/foodwiki/uploads/sites/11/2019/08/sushi_2-1080x960.jpg" alt="HERE WAS SUSHI" />
+            </div>     <!--- ALT as an Image Alts-->
+
+            <div id="How to make sushi link">
+                <a href="https://www.fifteenspatulas.com/homemade-sushi/" target="_blank">HOW TO COOK SUSHI???</a>
+            </div>
+
+            <div id="VIDEO">
+                <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" 
+                width='320' height='240' controls>         <!--- The CONTROLS attribute instructs the browser to include basic video controls such as pausing and playing. -->
+                Video not supported                        <!---NEED TO WRITE BETWEEN <video>-->
+                </video> 
+            </div>
+            <div>
+            <a href="https://en.wikipedia.org/wiki/Avocado" target="_blank"><img src="https://groentebroer.nl/product/avocado-957.jpg"/></a>
+            </div>
+            <div id="LINK TO REGISTRATION">
+                <a href=""
+            </div>
+        </body>
+
+</html>
